@@ -1,0 +1,32 @@
+
+.main-cat {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    
+}
+
+
+.prod-categ {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.prod-box {
+    border: 1px solid rgb(181, 181, 181);
+    border-radius: 6px;
+    width: 330px;
+    height: 345px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.95);
+    align-items: center;
+    text-align: center;
+    
+}

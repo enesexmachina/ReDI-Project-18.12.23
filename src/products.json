@@ -1,0 +1,443 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Nike Air Force",
+            "description": "Gender: Men , Colors: Same as Displayed Condition: 100% Brand New",
+            "price": 109,
+            "discountPercentage": 5,
+            "rating": 4.38,
+            "stock": 6,
+            "brand": "Nike",
+            "category": "Shoes",
+            "thumbnail": "./public/img/nike-air-force.jpg",
+            "images": [
+                "./public/img/nike-air-force.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Nike Dunk",
+            "description": "Gender: Men , Colors: Same as Displayed Condition: 100% Brand New",
+            "price": 209,
+            "discountPercentage": 5,
+            "rating": 4.91,
+            "stock": 20,
+            "brand": "Nike",
+            "category": "Shoes",
+            "thumbnail": "./public/img/nike-dunk.jpg",
+            "images": [
+                "./public/img/nike-dunk.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Vans Old Skool",
+            "description": "Gender: Unisex , Colors: Same as Displayed Condition: 100% Brand New",
+            "price": 69,
+            "discountPercentage": 5,
+            "rating": 4.41,
+            "stock": 68,
+            "brand": "Vans of the Walls",
+            "category": "mens-shoes",
+            "thumbnail": "./public/img/vans-old-skool-flame.jpg",
+            "images": [
+                "./public/img/vans-old-skool-flame.jpg"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Adidas Superstar",
+            "description": "Gender: Unisex , Colors: Same as Displayed Condition: 100% Brand New",
+            "price": 99,
+            "discountPercentage": 5,
+            "rating": 4.33,
+            "stock": 137,
+            "brand": "Adidas",
+            "category": "Shoes",
+            "thumbnail": "./public/img/adidas-superstar.jpg",
+            "images": [
+                "./public/img/adidas-superstar.jpg"
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Nike Air Max Plus",
+            "description": "Gender: Unisex , Colors: Same as Displayed Condition: 100% Brand New",
+            "price": 189,
+            "discountPercentage": 5,
+            "rating": 4.33,
+            "stock": 137,
+            "brand": "Nike",
+            "category": "Shoes",
+            "thumbnail": "./public/img/nike-air-max-plus.jpg",
+            "images": [
+                "./public/img/nike-air-max-plus.jpg"
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Nike Air Max 97",
+            "description": "Gender: Unisex , Colors: Same as Displayed Condition: 100% Brand New",
+            "price": 149,
+            "discountPercentage": 5,
+            "rating": 4.33,
+            "stock": 137,
+            "brand": "Nike",
+            "category": "Shoes",
+            "thumbnail": "./public/img/nike-air-max-97.jpg",
+            "images": [
+                "./public/img/nike-air-max-97.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Puma Suede Classic",
+            "description": "Gender: Unisex , Colors: Same as Displayed Condition: 100% Brand New",
+            "price": 119,
+            "discountPercentage": 5,
+            "rating": 4.0,
+            "stock": 17,
+            "brand": "Puma",
+            "category": "Shoes",
+            "thumbnail": "./public/img/puma-suede-classic.jpg",
+            "images": [
+                "./public/img/puma-suede-classic.jpg"
+            ]
+        },
+        {
+            "id": 9,
+            "title": "Puma Palermo 2.0",
+            "description": "Gender: Unisex , Colors: Same as Displayed Condition: 100% Brand New",
+            "price": 99,
+            "discountPercentage": 5,
+            "rating": 3.33,
+            "stock": 130,
+            "brand": "Puma",
+            "category": "Shoes",
+            "thumbnail": "./public/img/puma-palermo.jpg",
+            "images": [
+                "./public/img/puma-palermo.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Puma Clup Sneaker",
+            "description": "Gender: Unisex , Colors: Same as Displayed Condition: 100% Brand New",
+            "price": 59,
+            "discountPercentage": 5,
+            "rating": 4.8,
+            "stock": 437,
+            "brand": "Puma",
+            "category": "Shoes",
+            "thumbnail": "./public/img/puma-clup-sneaker.jpg",
+            "images": [
+                "./public/img/puma-clup-sneaker.jpg"
+            ]
+        },
+        {
+            "id": 11,
+            "title": "Reebok Ex-O-Fit Hi",
+            "description": "Gender: Unisex , Colors: Same as Displayed Condition: 100% Brand New",
+            "price": 90,
+            "discountPercentage": 5,
+            "rating": 4.33,
+            "stock": 19,
+            "brand": "Reebok",
+            "category": "Shoes",
+            "thumbnail": "./public/img/reebok-ex-o-hi.jpg",
+            "images": [
+                "./public/img/reebok-ex-o-hi.jpg"
+            ]
+        },
+        {
+            "id": 12,
+            "title": "Reebok C 85",
+            "description": "Gender: Unisex , Colors: Same as Displayed Condition: 100% Brand New",
+            "price": 90,
+            "discountPercentage": 5,
+            "rating": 4.63,
+            "stock": 117,
+            "brand": "Reebok",
+            "category": "Shoes",
+            "thumbnail": "./public/img/reebok-c-85.jpg",
+            "images": [
+                "./public/img/reebok-c-85.jpg"
+            ]
+        },
+        {
+            "id": 13,
+            "title": "Nike Hexton Track Suit",
+            "description": "Gender: Unisex , Colors: Same as Displayed Condition: 100% Brand New",
+            "price": 39,
+            "discountPercentage": 5,
+            "rating": 4.1,
+            "stock": 42,
+            "brand": "Nike",
+            "category": "Track Suit",
+            "thumbnail": "./public/img/nike-hexton-tracksuit.jpg",
+            "images": [
+                "./public/img/nike-hexton-tracksuit.jpg"
+            ]
+        },
+        {
+            "id": 14,
+            "title": "Sean John Track Suit",
+            "description": "Gender: Unisex , Colors: Same as Displayed Condition: 100% Brand New",
+            "price": 50,
+            "discountPercentage": 5,
+            "rating": 4.2,
+            "stock": 317,
+            "brand": "Sean John",
+            "category": "Track Suit",
+            "thumbnail": "./public/img/sean-john-tracksuit.jpg",
+            "images": [
+                "./public/img/sean-john-tracksuit.jpg"
+            ]
+        },
+        {
+            "id": 15,
+            "title": "Lacoste Track Suit",
+            "description": "Gender: Unisex , Colors: Same as Displayed Condition: 100% Brand New",
+            "price": 119,
+            "discountPercentage": 5,
+            "rating": 4.6,
+            "stock": 5,
+            "brand": "Lacoste",
+            "category": "Track Suit",
+            "thumbnail": "./public/img/lacoste-tracksuit.jpg",
+            "images": [
+                "./public/img/lacoste-tracksuit.jpg"    
+            ]
+        },
+        {
+            "id": 16,
+            "title": "Nike Sportswear Track Suit",
+            "description": "Gender: Unisex , Colors: Same as Displayed Condition: 100% Brand New",
+            "price": 39,
+            "discountPercentage": 5,
+            "rating": 4.3,
+            "stock": 117,
+            "brand": "Nike",
+            "category": "Track Suit",
+            "thumbnail": "./public/img/nike-sportswear-tracksuit.jpg",
+            "images": [
+                "./public/img/nike-sportswear-tracksuit.jpg"
+            ]
+        },
+        {
+            "id": 17,
+            "title": "Adidas Blue Track Suit",
+            "description": "Gender: Unisex , Colors: Same as Displayed Condition: 100% Brand New",
+            "price": 59,
+            "discountPercentage": 5,
+            "rating": 4.9,
+            "stock": 37,
+            "brand": "Adidas",
+            "category": "Track Suit",
+            "thumbnail": "./public/img/adidas-blue-tracksuit.jpg",
+            "images": [
+                "./public/img/adidas-blue-tracksuit.jpg"
+            ]
+        },
+        {
+            "id": 18,
+            "title": "Adidas Red Track Suit",
+            "description": "Gender: Unisex , Colors: Same as Displayed Condition: 100% Brand New",
+            "price": 69,
+            "discountPercentage": 5,
+            "rating": 4.1,
+            "stock": 17,
+            "brand": "Adidas",
+            "category": "Track Suit",
+            "thumbnail": "./public/img/adidas-red-tracksuit.jpg",
+            "images": [
+                "./public/img/adidas-red-tracksuit.jpg"
+            ]
+        },
+        {
+            "id": 19,
+            "title": "Nike NBA Track Suit",
+            "description": "Gender: Unisex , Colors: Same as Displayed Condition: 100% Brand New",
+            "price": 39,
+            "discountPercentage": 5,
+            "rating": 4.6,
+            "stock": 12,
+            "brand": "Nike",
+            "category": "Track Suit",
+            "thumbnail": "./public/img/nike-nba-tracksuit.jpg",
+            "images": [
+                "./public/img/nike-nba-tracksuit.jpg"
+            ]
+        },
+        {
+            "id": 20,
+            "title": "TrapStar Track Suit",
+            "description": "Gender: Unisex , Colors: Same as Displayed Condition: 100% Brand New",
+            "price": 29,
+            "discountPercentage": 5,
+            "rating": 4.3,
+            "stock": 37,
+            "brand": "TrapStar",
+            "category": "Track Suit",
+            "thumbnail": "./public/img/trapstar-tracksit.jpg",
+            "images": [
+                "./public/img/trapstar-tracksit.jpg"
+            ]
+        },
+        {
+            "id": 21,
+            "title": "Lacoste Track Suit",
+            "description": "Gender: Unisex , Colors: Same as Displayed Condition: 100% Brand New",
+            "price": 199,
+            "discountPercentage": 5,
+            "rating": 4.6,
+            "stock": 137,
+            "brand": "Lacoste",
+            "category": "Track Suit",
+            "thumbnail": "./public/img/lacoste-sport-tracksuit.jpg",
+            "images": [
+                "./public/img/lacoste-sport-tracksuit.jpg"
+            ]
+        },
+        {
+            "id": 22,
+            "title": "Nike Tennis Sport Bag",
+            "description": "Gender: Unisex , Colors: Same as Displayed Condition: 100% Brand New",
+            "price": 59,
+            "discountPercentage": 5,
+            "rating": 4.1,
+            "stock": 21,
+            "brand": "Nike",
+            "category": "Bag",
+            "thumbnail": "./public/img/nike-tennis-bag.jpg",
+            "images": [
+                "./public/img/nike-tennis-bag.jpg"
+            ]
+        },
+        {
+            "id": 23,
+            "title": "Lacoste Sport Bag",
+            "description": "Gender: Unisex , Colors: Same as Displayed Condition: 100% Brand New",
+            "price": 89,
+            "discountPercentage": 5,
+            "rating": 4.1,
+            "stock": 7,
+            "brand": "Lacoste",
+            "category": "Bag",
+            "thumbnail": "./public/img/lacoste-sport-bag.jpg",
+            "images": [
+                "./public/img/lacoste-sport-bag.jpg"
+            ]
+        },
+        {
+            "id": 24,
+            "title": "Adidas Boxing Sport Bag",
+            "description": "Gender: Unisex , Colors: Same as Displayed Condition: 100% Brand New",
+            "price": 139,
+            "discountPercentage": 5,
+            "rating": 4.33,
+            "stock": 137,
+            "brand": "Adidas",
+            "category": "Bag",
+            "thumbnail": "./public/img/adidas-boxing.jpg",
+            "images": [
+                "./public/img/adidas-boxing.jpg"
+            ]
+        },
+        {
+            "id": 25,
+            "title": "Nike Gym Clup Bag",
+            "description": "Gender: Unisex , Colors: Same as Displayed Condition: 100% Brand New",
+            "price": 50,
+            "discountPercentage": 5,
+            "rating": 4.6,
+            "stock": 71,
+            "brand": "Nike",
+            "category": "Bag",
+            "thumbnail": "./public/img/nike-gymclup-bag.jpg",
+            "images": [
+                "./public/img/nike-gymclup-bag.jpg"
+            ]
+        },
+        {
+            "id": 26,
+            "title": "Under Armour Undeniable",
+            "description": "Gender: Unisex , Colors: Same as Displayed Condition: 100% Brand New",
+            "price": 35,
+            "discountPercentage": 5,
+            "rating": 4.8,
+            "stock": 30,
+            "brand": "Under Armour",
+            "category": "Bag",
+            "thumbnail": "./public/img/under-armour-undeniable.jpg",
+            "images": [
+                "./public/img/under-armour-undeniable.jpg"
+            ]
+        },
+        {
+            "id": 27,
+            "title": "Ray-ban Bone Sonnenbrille",
+            "description": "Gender: Unisex , Colors: Same as Displayed Condition: 100% Brand New",
+            "price": 99,
+            "discountPercentage": 5,
+            "rating": 4.33,
+            "stock": 137,
+            "brand": "Ray-ban",
+            "category": "Brille",
+            "thumbnail": "./public/img/ray-ban-sonnenbrille.jpg",
+            "images": [
+                "./public/img/ray-ban-sonnenbrille.jpg"
+            ]
+        },
+        {
+            "id": 28,
+            "title": "Prada PR 17WS Sonnenbrille",
+            "description": "Gender: Unisex , Colors: Same as Displayed Condition: 100% Brand New",
+            "price": 299,
+            "discountPercentage": 5,
+            "rating": 4.33,
+            "stock": 137,
+            "brand": "Prada",
+            "category": "Brille",
+            "thumbnail": "./public/img/prada-pr-17ws.jpg" ,
+            "images": [
+                "./public/img/prada-pr-17ws.jpg"            ]
+        },
+        {
+            "id": 29,
+            "title": "Cartier Tank",
+            "description": "Gender: Unisex , Colors: Same as Displayed Condition: 100% Brand New",
+            "price": 4099,
+            "discountPercentage": 5,
+            "rating": 4.9,
+            "stock": 3,
+            "brand": "Cartier",
+            "category": "Uhren",
+            "thumbnail": "./public/img/cartier-tank-id-29.jpg",
+            "images": [
+                "./public/img/cartier-tank-id-29.jpg"
+                
+            ]
+        },
+        {
+            "id": 30,
+            "title": "Casio G-Shock",
+            "description": "Gender: Unisex , Colors: Same as Displayed Condition: 100% Brand New",
+            "price": 99,
+            "discountPercentage": 5,
+            "rating": 5,
+            "stock": 300,
+            "brand": "Casio",
+            "category": "Uhren",
+            "thumbnail": "./public/img/casio-gshock-id-30.jpg",
+            "images": [
+                "./public/img/casio-gshock-id-30.jpg"
+                
+            ]
+        }
+    ],
+    "total": 30,
+    "skip": 0,
+    "limit": 30
+}

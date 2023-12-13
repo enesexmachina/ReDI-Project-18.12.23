@@ -1,102 +1,68 @@
+import './conscious.css';
 
-import './conscious.css'
+import React, { useState } from 'react';
 
-import * as React from 'react';
-import Backdrop from '@mui/material/Backdrop';
 import Button from '@mui/material/Button';
+import { Modal } from '@mui/material';
 
+function Conscious() {
+  const [open, setOpen] = useState(false);
+  const [detailPicture, setDetailPicture] = useState('');
 
-
-function conscious() {
-  const [open, setOpen] = React.useState(false);
   const handleClose = () => {
     setOpen(false);
   };
-  const handleOpen = () => {
+
+  const handleOpen = (picture) => {
+    setDetailPicture(picture);
     setOpen(true);
   };
+
   return (
     <div>
-      <div className='main-divi' >
-        <img className='gallery-pic' src='./public/img/BENZ.JPG' ></img>
-        <Button onClick={handleOpen}>View</Button>
-        <Backdrop
-          sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
-          open={open}
-          onClick={handleClose}
-        >
-          <img className='bd-gallery-pic' src='./public/img/BENZ.JPG' ></img>
-        </Backdrop>
-        <p className='conscious-comment' >'Dead Mans Mercedes CL 500 AMG' taken by Annonym. </p>
+      <div className="main-divi">
+        <img className="gallery-pic" src="./public/img/BENZ.JPG" alt="Benz" />
+        <Button onClick={() => handleOpen('./public/img/BENZ.JPG')}>View</Button>
 
-        <img className='gallery-pic' src='./public/img/redsky.JPG' ></img>
-        <Button onClick={handleOpen}>View</Button>
-        <Backdrop
-          sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
-          open={open}
-          onClick={handleClose}
-        >
-          <img className='bd-gallery-pic' src='./public/img/redsky.JPG' ></img>
-        </Backdrop>
-        <p className='conscious-comment' >'Sun Rise' taken by Annonym. </p>
+        <p className="conscious-comment">'Dead Mans Mercedes CL 500 AMG' taken by Annonym.</p>
 
-        <img className='gallery-pic' src='./public/img/BW_3040.JPG' ></img>
-        <Button onClick={handleOpen}>View</Button>
-        <Backdrop
-          sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
-          open={open}
-          onClick={handleClose}
-        >
-          <img className='bd-gallery-pic' src='./public/img/BW_3040.JPG' ></img>
-        </Backdrop>
-        <p className='conscious-comment' >'Black&White Clouds' taken by Annonym. </p>
+        <img className="gallery-pic" src="./public/img/redsky.JPG" alt="Red Sky" />
+        <Button onClick={() => handleOpen('./public/img/redsky.JPG')}>View</Button>
 
-        <img className='gallery-pic' src='./public/img/skyline.JPG' ></img>
-        <Button onClick={handleOpen}>View</Button>
-        <Backdrop
-          sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
-          open={open}
-          onClick={handleClose}
-        >
-          <img className='bd-gallery-pic' src='./public/img/skyline.JPG' ></img>
-        </Backdrop>
-        <p className='conscious-comment' >'Midnight Purple Nissan Skyline R33' taken by Annonym. </p>
+        <p className="conscious-comment">'Sun Rise' taken by Annonym.</p>
 
-        <img className='gallery-pic' src='./public/img/alchemist.JPG' ></img>
-        <Button onClick={handleOpen}>View</Button>
-        <Backdrop
-          sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
-          open={open}
-          onClick={handleClose}
-        >
-          <img className='bd-gallery-pic' src='./public/img/alchemist.JPG' ></img>
-        </Backdrop>
-        <p className='conscious-comment' >'Unknown Sketch by Unknown Artist' taken by Annonym. </p>
+        <img className="gallery-pic" src="./public/img/alchemist.JPG" alt="Red Sky" />
+        <Button onClick={() => handleOpen('./public/img/alchemist.JPG')}>View</Button>
 
-        <img className='gallery-pic' src='./public/img/jumpman.png' ></img>
-        <Button onClick={handleOpen}>View</Button>
-        <Backdrop
-          sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
-          open={open}
-          onClick={handleClose}
-        >
-          <img className='bd-gallery-pic' src='./public/img/jumpman.png' ></img>
-        </Backdrop>
-        <p className='conscious-comment' >'Metropol Crackhead' taken by Annonym. </p>
+        <p className="conscious-comment">'Alchemist' taken by Annonym.</p>
 
-        <img className='gallery-pic' src='./public/img/BW_3235.JPG' ></img>
-        <Button onClick={handleOpen}>View</Button>
-        <Backdrop
-          sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
-          open={open}
-          onClick={handleClose}
-        >
-          <img className='bd-gallery-pic' src='./public/img/BW_3235.JPG' ></img>
-        </Backdrop>
-        <p className='conscious-comment' >'Black White Brutalism' taken by Annonym. </p>
+        <img className="gallery-pic" src="./public/img/BW_3040.JPG" alt="Red Sky" />
+        <Button onClick={() => handleOpen('./public/img/BW_3040.JPG')}>View</Button>
+
+        <p className="conscious-comment">'Black & White mini Brutalism' taken by Annonym.</p>
+
+        <img className="gallery-pic" src="./public/img/FISHEYE.JPG" alt="Red Sky" />
+        <Button onClick={() => handleOpen('./public/img/FISHEYE.JPG')}>View</Button>
+
+        <p className="conscious-comment">'FISCH EYE' taken by Annonym.</p>
+
+        <img className="gallery-pic" src="./public/img/FLOOR.JPG" alt="Red Sky" />
+        <Button onClick={() => handleOpen('./public/img/FLOOR.JPG')}>View</Button>
+
+        <p className="conscious-comment">'Hearth King' taken by Annonym.</p>
+
+        <img className="gallery-pic" src="./public/img/skyline.JPG" alt="Red Sky" />
+        <Button onClick={() => handleOpen('./public/img/skyline.JPG')}>View</Button>
+
+        <p className="conscious-comment">'Nissan Skyline r33 GTR' taken by Annonym.</p>
+
+
       </div>
+      <Modal open={open} onClose={handleClose} style={{ display: 'flex', justifyContent: 'center' }}>
+        <img src={detailPicture} alt="Detail" />
+      </Modal>
     </div>
-  )
+  );
 }
 
-export default conscious
+export default Conscious;

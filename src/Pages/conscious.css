@@ -1,0 +1,31 @@
+.main-divi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+
+}
+
+.gallery-pic  {
+    height: 800px;
+    width: 800px;
+    margin: 80px;
+    border-radius: 6px;
+}
+
+.bd-gallery-pic  {
+    height: 1200px;
+    width: auto;
+    margin: 80px;
+    border-radius: 6px;
+}
+
+.conscious-comment {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    border-radius: 6px;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 220px;
+}

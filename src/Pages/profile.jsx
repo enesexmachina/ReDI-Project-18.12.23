@@ -1,11 +1,11 @@
 import React from 'react'
 
-function getmember() {
+function profile() {
   return (
     <div>
-      getmember
+      profile
     </div>
   )
 }
 
-export default getmember
+export default profile

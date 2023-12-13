@@ -4,44 +4,41 @@ import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import home from './Pages/home'
 import conscious from './Pages/conscious'
 import articels from './Pages/articels'
-import news from './Pages/news'
-import data from './Pages/data'
-import getmember from './Pages/getmember'
+import events from "./Pages/events";
+import profile from "./Pages/profile";
+
 
 function App() {
   return (
-    <div>
-      <div className="search-box" >
-        <input className="search-bar" type="text" placeholder=" What are U looking 4 ? " ></input>
-      </div>
-      <div className="label">
-        <p className="label-script">NSX:Magazino</p>
-      </div>
+    <div className="main-target" >
+       <div className="main-div" >
 
-
-      <div>
         <BrowserRouter>
-          <nav >
-            <Link className="link" to="/">Home</Link>
-            <Link className="link" to="/News">News</Link>
-            <Link className="link" to="/Prod">Artikels</Link>
-            <Link className="link" to="/Conscious">Conscious</Link>
-            <Link className="link" to="/Data">Data+</Link>
-            <Link className="link" to="/GetMember">Get Member</Link>
+        <div className="top-box" >
+          <img className="lbl-pic" src="./public/img/nsx-magazino.jpg" alt="script_lbl" />
+          <input className="search-bar" type="text" placeholder=" Search Bar " ></input>
+        </div>
+          <nav className="nav-bar">
+            <Link className="link" to="/">HOME</Link>
+            <Link className="link" to="/Products">PRODUCTS</Link>
+            <Link className="link" to="/Conscious">GALLERY</Link>
+            <Link className="link" to="/Events">EVENTS</Link>
+            <Link className="link" to="/MyProfile">MY PROFILE</Link>
+
+
 
           </nav>
           <Routes>
+            <Route path="/MyProfile" Component={profile}/>
             <Route path="/" Component={home} />
             <Route path="/Conscious" Component={conscious} />
-            <Route path="/Prod" Component={articels} />
-            <Route path="/News" Component={news} />
-            <Route path="/Data" Component={data} />
-            <Route path="/GetMember" Component={getmember} />
+            <Route path="/Products" Component={articels} />
+            <Route path="/Events" Component={events} />
+
           </Routes>
         </BrowserRouter>
+        </div>
       </div>
-
-    </div >
   )
 }
 

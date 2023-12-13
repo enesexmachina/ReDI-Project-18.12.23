@@ -35,8 +35,6 @@ function articels() {
   
   return (
     <div className='main-cat' >
-      
-
       <div className='prod-categ' >
         {products.map((product) => (
             <div className='prod-box' key={product.id} >

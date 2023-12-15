@@ -3,7 +3,8 @@ import axios from 'axios';
 import React from 'react'
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from 'react';
-import { Backdrop, Button, Modal } from "@mui/material";
+import { Button, Modal } from "@mui/material";
+
 
 
 
@@ -20,10 +21,38 @@ function articels() {
     setOpen(true);
   };
   const params = useParams();
-  console.log(params);
+  
   const [products, setProdcuts] = useState([]);
 
   const [detailProduct, setDetailProduct] = useState();
+
+  const [cart, setCart] = useState([]);
+
+  const addToCart = (product) => {
+    // Retrieve existing cart from localStorage
+    const existingCart = JSON.parse(localStorage.getItem('cart')) || [];
+
+    // Add the new product to the cart
+    const newCart = [...existingCart, product];
+
+    // Update the state and localStorage with the new cart
+    setCart(newCart);
+    localStorage.setItem('cart', JSON.stringify(newCart));
+  };
+
+  const [fav, setFav] = useState([]);
+
+  const addToFav = (product) => {
+    // Retrieve existing cart from localStorage
+    const existingFav = JSON.parse(localStorage.getItem('fav')) || [];
+
+    // Add the new product to the cart
+    const newFav = [...existingFav, product];
+
+    // Update the state and localStorage with the new cart
+    setFav(newFav);
+    localStorage.setItem('fav', JSON.stringify(newFav));
+  };
 
 
   useEffect(() => {
@@ -42,9 +71,10 @@ function articels() {
               <Button onClick={()=>handleOpen(product)}>View</Button>
         
         
-              <p key={product.id}>  {product.title} <hr /> {product.price}$ <hr />
+              <p key={product.id}>  {product.title} <hr /> {product.price} {product.value} <hr />
               <div  className="op-btns">
-                <button className="option-btn-blue">Add To Cart</button><button className="option-btn-red" >Add to Favorites</button>
+                <button onClick={() => addToCart({ name: product.title, price:product.price, value:product.value, pic:product.images[0] })} className="option-btn-blue">Add To Cart</button>
+                <button onClick={() => addToFav({name: product.title, price:product.price,value:product.value, pic:product.images[0] })} className="option-btn-red" >Add to Favorites</button>
                 </div>
                 </p>
             </div>

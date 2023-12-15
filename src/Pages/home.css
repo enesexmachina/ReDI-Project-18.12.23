@@ -33,3 +33,8 @@
     margin-top: 10px;
 }
 
+body {
+    background-image: url(./IMG_3402.PNG);
+    background-size:auto;
+    background-repeat: no-repeat;
+}

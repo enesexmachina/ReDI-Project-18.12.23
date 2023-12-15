@@ -27,6 +27,7 @@ const home = () => {
       }
     };
 
+
     fetchWeatherData();
   }, [apiKey, city]);
 

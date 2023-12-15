@@ -33,14 +33,15 @@ const home = () => {
 
   return (
     <div className='home-target'>
+      <h1 className='greeting-scrpt' >Wilkommen! Das U-Magazino wünscht ihnen einen angenehnmen Surf!</h1>
       <p className='w-data' >
         {forecastData.map((forecast, index) => (
           <p key={index}>
             <div className='b-data' >
             <h2>{city}</h2>
             <strong>{new Date(forecast.dt_txt).toLocaleDateString('de-DE')}</strong>
-            <p>Temperature: {Math.round(forecast.main.temp)}°C</p>
-            <p>Condition: {forecast.weather[0].description}</p>
+            <p className='temp' >{Math.round(forecast.main.temp)}°C</p>
+            
             <img className='w-image'
               src={`https://openweathermap.org/img/wn/${forecast.weather[0].icon}.png`}
               alt="Weather Icon"

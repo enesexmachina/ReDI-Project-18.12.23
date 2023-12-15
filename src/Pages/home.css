@@ -1,13 +1,54 @@
-
+.home-target {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.greeting-scrpt {
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
 .w-data {
     display: flex;
     flex-direction: row;
-    width: 600px;
+    align-items: center;
+    width: 1700px;
+    margin-top: 300px;
     margin-left: 20px;
-    overflow:hidden;
-    scroll-behavior: auto;
-    
-    
+    overflow-x: scroll;
+  
+    /* Width and height of the scrollbar */
+    scrollbar-width: thin;
+     /* For Firefox */
+    scrollbar-color: #888 #f1f1f1; /* For Firefox */
+  
+    /* Width and height of the scrollbar for WebKit browsers (Chrome, Safari, etc.) */
+    &::-webkit-scrollbar {
+      width: 12px;
+    }
+  
+    /* Track (the area on the sides of the scrollbar) */
+    &::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+  
+    /* Handle (the draggable part of the scrollbar) */
+    &::-webkit-scrollbar-thumb {
+      background: #888;
+    }
+  
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+      background: #555;
+    }
+  }
+  
+.temp {
+    font-size: 40px;
 }
   
 .b-data {

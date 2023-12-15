@@ -52,7 +52,7 @@ function App() {
         <BrowserRouter>
           <div className="top-box" >
             <img className="lbl-pic" src="./public/img/nsx-magazino.jpg" alt="script_lbl" />
-            <input className="search-bar" type="text" placeholder=" Search Bar " ></input>
+            
           </div>
           <nav className="nav-bar">
             <Link className="link" to="/">HOME</Link>
